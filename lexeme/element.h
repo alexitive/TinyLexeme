@@ -60,10 +60,10 @@ RegexElement::RegexElement(string name)
 
 void RegexElement::PrintElement()
 {
-    cout<<"element_id "<<this->element_id<<" "
-    <<"regex.class_type "<<this->element_type<<" "
-    <<"regex.name "<<this->name<<" "
-    <<"regex.remark "<<this->remark<<endl;
+    cout<<"element_id: "<<this->element_id<<" "
+    <<"regex.class_type: "<<this->element_type<<" "
+    <<"regex.name: "<<this->name<<" "
+    <<"regex.remark: "<<this->remark<<endl;
 }
 
 #endif
